@@ -2,10 +2,10 @@ package stormchat.backend.groups.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import stormchat.backend.StormChatApplication;
+import stormchat.backend.StealthchatApplication;
 import stormchat.backend.groups.model.UserGroupRequest;
 
-@RestController(value = StormChatApplication.API_BASE_URL + "/groups")
+@RestController(value = StealthchatApplication.API_BASE_URL + "/groups")
 public class GroupController {
 
     @PostMapping(value = "/join/{groupId}")

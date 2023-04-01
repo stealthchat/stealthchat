@@ -10,13 +10,13 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import stormchat.backend.StormChatApplication;
+import stormchat.backend.StealthchatApplication;
 import stormchat.backend.authentication.model.AuthenticationRequest;
 import stormchat.backend.authentication.model.AuthenticationResponse;
 import stormchat.backend.services.UserDetailsService;
 import stormchat.backend.util.JwtUtil;
 
-@RestController(value = StormChatApplication.API_BASE_URL)
+@RestController(value = StealthchatApplication.API_BASE_URL)
 public class AuthenticationController {
 
     @Autowired
