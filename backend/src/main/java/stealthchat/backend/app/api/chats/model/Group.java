@@ -1,4 +1,6 @@
-package stealthchat.backend.model;
+package stealthchat.backend.app.api.chats.model;
+
+import stealthchat.backend.model.User;
 
 import java.util.ArrayList;
 

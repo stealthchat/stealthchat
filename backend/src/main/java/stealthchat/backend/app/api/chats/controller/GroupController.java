@@ -1,9 +1,9 @@
-package stealthchat.backend.groups.controller;
+package stealthchat.backend.app.api.chats.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import stealthchat.backend.StealthchatApplication;
-import stealthchat.backend.groups.model.UserGroupRequest;
+import stealthchat.backend.app.api.chats.model.UserGroupRequest;
 
 @RestController(value = StealthchatApplication.API_BASE_URL + "/groups")
 public class GroupController {
@@ -20,8 +20,6 @@ public class GroupController {
 
         return ResponseEntity.ok(200);
     }
-
-
 
 
 

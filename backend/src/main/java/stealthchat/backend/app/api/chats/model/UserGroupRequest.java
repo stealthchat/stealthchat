@@ -1,6 +1,5 @@
-package stealthchat.backend.groups.model;
+package stealthchat.backend.app.api.chats.model;
 
-import stealthchat.backend.model.Group;
 import stealthchat.backend.model.User;
 
 public class UserGroupRequest {

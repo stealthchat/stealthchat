@@ -1,4 +1,4 @@
-package stealthchat.backend.groups.service;
+package stealthchat.backend.app.api.chats.service;
 
 import org.springframework.stereotype.Service;
 
