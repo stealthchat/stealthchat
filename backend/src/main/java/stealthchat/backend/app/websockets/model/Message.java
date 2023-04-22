@@ -1,6 +1,6 @@
 package stealthchat.backend.app.websockets.model;
 
-import stealthchat.backend.app.api.chats.model.Group;
+import stealthchat.backend.app.api.chat.model.Group;
 import stealthchat.backend.model.User;
 
 import java.util.Date;

@@ -1,4 +1,4 @@
-package stealthchat.backend.app.api.chats.model;
+package stealthchat.backend.app.api.chat.model;
 
 import stealthchat.backend.model.User;
 
