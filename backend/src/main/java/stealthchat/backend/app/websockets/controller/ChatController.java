@@ -1,4 +1,4 @@
-package stealthchat.backend.chatting.controller;
+package stealthchat.backend.app.websockets.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.MessageMapping;
@@ -6,7 +6,7 @@ import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Controller;
-import stealthchat.backend.chatting.model.Message;
+import stealthchat.backend.app.websockets.model.Message;
 
 @Controller
 public class ChatController {
